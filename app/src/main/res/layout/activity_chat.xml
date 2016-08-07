@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhengrenkun.zrk.ui.activity.ChatActivity">
+    <com.zhengrenkun.chatview.ChatView
+        android:id="@+id/chat_view"
+        app:inputBarBackgroundColor="@color/white"
+        app:sendBtnIconTint="@color/blue"
+        app:inputBackgroundColor="@android:color/transparent"
+        app:sendBtnBackgroundTint="@android:color/transparent"
+        app:inputElevation="0dp"
+        app:inputTextSize="20sp"
+        app:sendBtnElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</android.support.constraint.ConstraintLayout>
