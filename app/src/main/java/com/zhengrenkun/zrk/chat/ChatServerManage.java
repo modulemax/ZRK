@@ -113,5 +113,5 @@ public class ChatServerManage {
     public void emitNewMessage(String message){
         mSocket.emit(ChatSocketEvent.newMessage,message);
     }
-
+    JSONObject o=new JSONObject();
 }

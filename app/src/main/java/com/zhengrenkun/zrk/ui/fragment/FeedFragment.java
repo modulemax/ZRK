@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.zhengrenkun.zrk.R;
-import com.zhengrenkun.zrk.ui.activity.LoginActivity;
+import com.zhengrenkun.zrk.ui.activity.SignInActivity;
 
 
 /**
@@ -32,7 +32,7 @@ public class FeedFragment extends BaseFragment {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), LoginActivity.class));
+                startActivity(new Intent(getActivity(), SignInActivity.class));
             }
         });
         textView.setText(""+Math.random());
